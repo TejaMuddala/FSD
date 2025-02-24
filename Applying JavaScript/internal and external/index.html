@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>JavaScript Embedding Example</h1>
+    <p id="internal">This text will change using internal JavaScript</p>
+    <div id="hii">
+        <button onclick="internal()">Change Text(internal JS)</button>
+    </div>
+
+    <p id="external">This text will change using external JavaScript</p>
+    <div id="hi">
+        <button onclick="external()">Change Text(external JS)</button>
+    </div>
+    <script>
+        function internal() {
+            document.getElementById("internal").innerHTML = "This is updated using internal javascript";
+        }
+    </script>
+</body>
+
+</html>
