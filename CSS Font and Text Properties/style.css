@@ -1,0 +1,46 @@
+*{
+    margin-top: 50px;
+    margin-left: 10px;
+    padding: 0%;
+}
+body {
+    background: url(Screenshot\ 2025-02-27\ 123258.png) no-repeat center center fixed; 
+    background-size: cover;
+}
+h1{
+    font-size: 45px;
+    text-align: center;
+    background-image: url(bu.jpg);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+#id{
+    border: 5px solid black;
+    border-radius: 20px;
+    border-width: 5px;
+    text-align: center;
+    margin-right: 25%;
+    margin-left: 25%;
+    background-image: url(Screenshot\ 2025-02-27\ 123318.png);
+    background-size: cover;
+    padding: 20px;
+}
+#id1{
+    font-size: 30px;
+}
+#id2{
+    font-weight: bold;
+    font-size: 20px;
+}
+#id3{
+    font-style: italic;
+    font-size: 20px;
+}
+#id4{
+    text-decoration: underline;
+    font-size: 20px;
+}
+#id5{
+    text-transform: uppercase;
+    font-size: 20px;
+}
