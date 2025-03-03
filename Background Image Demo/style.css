@@ -3,16 +3,18 @@
     padding: 0;
 }
 body{
-    background-image: url(A9aMdY2.jpg);
+    background-image: url(stunning-high-resolution-nature-and-landscape-backgrounds-breathtaking-scenery-in-hd-free-photo.jpg);
     background-repeat: repeat-x;
-    background-size: 300px;
+    background-size: 200px;
     background-position-y:150px ;
-}
-.id{
+    background-attachment: fixed;
+    height: 200vh;
     text-align: center;
     font-family: Arial,sans-serif;
-    padding: 50px;
+    font-weight: 700;
+    font-size: 30px;
 }
-#id1{
-    margin:15px;
+#id{
+    font-weight: 400;
+    font-size: 20px;
 }
