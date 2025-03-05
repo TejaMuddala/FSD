@@ -1,0 +1,246 @@
+Website Link : https://www.w3schools.com/cssref/playdemo.php?filename=playcss_background-image 
+/* border-block-end-color */
+border-block-end-color: black;
+border-block-end-color: #0000ff;
+border-block-end-color: rgb(0, 255, 0);
+border-block-end-color: rgba(0, 255, 0, 0.5);
+border-block-end-color: hsl(0, 100%, 50%);
+border-block-end-color: hsla(0, 100%, 50%, 0.1);
+border-block-end-color: transparent;
+
+/* border-block-end-style */
+border-block-end-style: none;
+border-block-end-style: hidden;
+border-block-end-style: dotted;
+border-block-end-style: dashed;
+border-block-end-style: solid;
+border-block-end-style: double;
+border-block-end-style: groove;
+border-block-end-style: ridge;
+border-block-end-style: inset;
+border-block-end-style: outset;
+border-block-end-style: initial;
+border-block-end-style: inherit;;
+
+/* border-block-end-width */
+border-block-end-width: thin;
+border-block-end-width: medium;
+border-block-end-width: thick;
+border-block-end-width: 1px;
+border-block-end-width: 10px;
+border-block-end-width: 20px;
+
+/* border-block-start */
+border-block-start: 5px solid red;
+border-block-start: 10px solid red;
+border-block-start: 5px dotted blue;
+border-block-start: 5px dashed blue;
+border-block-start: 15px double pink;
+
+/* border-block-start-color */
+border-block-start-color: black;
+border-block-start-color: lightgreen;
+border-block-start-color: blue;
+border-block-start-color: #e728db;
+border-block-start-color: hsl(69, 80%, 53%);
+border-block-start-color: rgb(231, 90, 39);
+
+/* border-block-start-style */
+border-block-start-style: none;
+border-block-start-style: hidden;
+border-block-start-style: dotted;
+border-block-start-style: dashed;
+border-block-start-style: solid;
+border-block-start-style: double;
+border-block-start-style: groove;
+border-block-start-style: ridge;
+border-block-start-style: inset;
+border-block-start-style: outset;
+border-block-start-style: initial;
+border-block-start-style: inherit;;
+
+/* border-block-start-width */
+border-block-start-width: thin;
+border-block-start-width: medium;
+border-block-start-width: thick;
+border-block-start-width: 1px;
+border-block-start-width: 10px;
+border-block-start-width: 20px;
+
+/* border-block-style */
+border-block-style: none;
+border-block-style: hidden;
+border-block-style: dotted;
+border-block-style: dashed;
+border-block-style: dashed dotted;
+border-block-style: solid;
+border-block-style: double;
+border-block-style: groove;
+border-block-style: ridge;
+border-block-style: inset;
+border-block-style: outset;
+border-block-style: initial;
+border-block-style: inherit;;
+
+/* border-block-width */
+border-block-width: thin;
+border-block-width: medium;
+border-block-width: thick;
+border-block-width: 1px;
+border-block-width: 10px;
+border-block-width: 20px 40px;
+
+/* border-buttom */
+border-bottom: 5px solid red;
+border-bottom: 10px solid red;
+border-bottom: 4px dotted blue;
+border-bottom: 4px dashed blue;
+border-bottom: 4px inset;
+border-bottom: 4px outset;
+border-bottom: 4px ridge;
+border-bottom: 4px groove;
+border-bottom: double;
+
+/* border-buttom-color */
+border-bottom-color: red;
+border-bottom-color: #0000ff;
+border-bottom-color: rgb(0, 255, 0);
+border-bottom-color: rgba(0, 255, 0, 0.5);
+border-bottom-color: hsl(0, 100%, 50%);
+border-bottom-color: hsla(0, 100%, 50%, 0.1);
+border-bottom-color: transparent;
+
+/* border-buttom-left-radius */
+border-bottom-left-radius: 100px;
+border-bottom-left-radius: 50px;
+border-bottom-left-radius: 50px 10px;
+border-bottom-left-radius: 10px 50px;
+border-bottom-left-radius: 10%;
+border-bottom-left-radius: 50%;
+border-bottom-left-radius: 100%;
+
+/* border-buttom-right-radius */
+border-bottom-right-radius: 100px;
+border-bottom-right-radius: 50px;
+border-bottom-right-radius: 50px 10px;
+border-bottom-right-radius: 10px 50px;
+border-bottom-right-radius: 10%;
+border-bottom-right-radius: 50%;
+border-bottom-right-radius: 100%;
+
+/* border-buttom-style */
+border-bottom-style: solid;
+border-bottom-style: dotted;
+border-bottom-style: dashed;
+border-bottom-style: inset;
+border-bottom-style: outset;
+border-bottom-style: ridge;
+border-bottom-style: groove;
+border-bottom-style: double;
+border-bottom-style: none;
+border-bottom-style: hidden;
+
+/* border-buttom-width */
+border-bottom-width: thin;
+border-bottom-width: medium;
+border-bottom-width: thick;
+border-bottom-width: 1px;
+border-bottom-width: 10px;
+border-bottom-width: 20px;
+
+/* border-collapse */
+border-collapse: separate;
+border-collapse: collapse;
+
+/* border-color */
+border-color: red;
+border-color: #0000ff;
+border-color: rgb(0, 255, 0);
+border-color: rgba(0, 255, 0, 0.5);
+border-color: hsl(0, 100%, 50%);
+border-color: hsla(0, 100%, 50%, 0.1);
+border-color: transparent;
+
+/* border-end-end-radius */
+border-end-end-radius: 0;
+border-end-end-radius: 100px;
+border-end-end-radius: 50px 10px;
+border-end-end-radius: 10px 50px;
+border-end-end-radius: 10%;
+border-end-end-radius: 50%;
+border-end-end-radius: 100%;
+
+/* border-end-start-radius */
+border-end-start-radius: 0;
+border-end-start-radius: 100px;
+border-end-start-radius: 50px 10px;
+border-end-start-radius: 10px 50px;
+border-end-start-radius: 10%;
+border-end-start-radius: 50%;
+border-end-start-radius: 100%;
+
+/* border-image */
+border-image: url(border.png) 50 round;
+border-image: url(border.png) 20% round;
+border-image: url(border.png) 30% round;
+border-image: url(border.png) 20% stretch;
+border-image: url(border.png) 30% stretch;
+border-image: url(border.png) 40% stretch;
+
+/* border-image-outset */
+border-image-outset: 2px;
+border-image-outset: 5px;
+border-image-outset: 10px;
+border-image-outset: 10px 2px;
+border-image-outset: 10px 5px;
+border-image-outset: 10px 5px 15px 5px;
+border-image-outset: 0;
+border-image-outset: 1;
+border-image-outset: 2;
+
+/* border-image-repeat */
+border-image-repeat: stretch;
+border-image-repeat: repeat;
+border-image-repeat: round;
+border-image-repeat: space;
+
+/* border-image-slice */
+border-image-slice: 10;
+border-image-slice: 30;
+border-image-slice: 50;
+border-image-slice: 20 25;
+border-image-slice: 10%;
+border-image-slice: 10% 20%;
+border-image-slice: 10% fill;
+
+/* border-image-source */
+border-image-source: url(border.png);
+border-image-source: url(img_tree.gif);
+border-image-source: url(klematis.jpg);
+border-image-source: url(pulpitrock.jpg);
+border-image-source: url(cinqueterre.jpg);
+border-image-source: ;
+
+/* border-image-width */
+border-image-width: 10px;
+border-image-width: 20px;
+border-image-width: 40px;
+border-image-width: 10px 40px;
+border-image-width: 1;
+border-image-width: 2;
+border-image-width: 10%;
+border-image-width: 50%;
+border-image-width: 30px 30px 40px 10px;
+border-image-width: auto;
+
+/* border-inline */
+border-inline: 5px solid red;
+border-inline: solid red;
+border-inline: 5px solid;
+border-inline: blue 10px dotted;
+border-inline: dashed hotpink 4px;
+border-inline: 4px inset;
+border-inline: red 4px outset;
+border-inline: 4px ridge;
+border-inline: groove 4px;
+border-inline: double;
