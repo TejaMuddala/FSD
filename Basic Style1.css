@@ -1,0 +1,223 @@
+/* External Css */
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+</body>
+</html>
+
+/* Internal Css and Inline Css */
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    /* Internal Css */
+    <style>
+      body{
+        background-color: red;
+    </style>
+</head>
+<body>
+    /* Inline Css */
+    <h1 style="color:blue;">Welcome To My Website</h1>
+</body>
+</html>
+
+/* Css Color References */
+color : color name;
+color : #1E90FF
+color : rgb(34, 139, 34) <!-- values upto 0, 0, 0 - 255, 0, 0 -->
+color : rgba(255, 99, 71, 0.7) <!-- Here 0.7 for transparent means opacity --> 
+color : hsl(240, 100%, 50%)
+color : hsla(120, 60%, 70%, 0.6)
+
+/* All CSS Simple Selectors */
+#id                   #idname        Selects the element with id="firstname"
+.class    	          .name	         Selects all elements with class="intro"
+*	                      *	           Selects all elements
+element	                p	           Selects all <p> elements
+element,element,..	  div, p	       Selects all <div> elements and all <p> elements
+
+/* Css Comments */
+/* This is a comment */
+
+/* Css Backgrounds */
+/*1. CSS background-color: */
+background-color: red;
+background-color: #0000ff;
+background-color: rgb(0, 255, 0);
+background-color: rgba(0, 255, 0, 0.5);
+background-color: transparent;
+background-color: hsl(0, 100%, 50%);
+background-color: hsla(0, 100%, 50%, 0.1);
+        
+div { /* Opacity / Transparency */
+  background-color: green;
+  opacity: 0.3;
+}
+        
+div { /* Transparency using RGBA */
+  background: rgba(0, 128, 0, 0.3) /* Green background with 30% opacity */
+}
+        
+/* CSS Background Image */
+background-image: url('image.jpg');
+background-image: url('img_tree.jpg'), url('image.jpg');
+background-image: conic-gradient(red, yellow, green);
+background-image: linear-gradient(red, yellow, blue);
+background-image: radial-gradient(red, green, blue);
+background-image: repeating-conic-gradient(red 10%, yellow 20%);
+background-image: repeating-linear-gradient(red, yellow 10%, green 20%);
+background-image: repeating-radial-gradient(red, yellow 10%, green 15%);
+
+/* Background-Blend-Mode */
+background-blend-mode: normal;
+background-blend-mode: multiply;
+background-blend-mode: screen;
+background-blend-mode: overlay;
+background-blend-mode: darken;
+background-blend-mode: lighten;
+background-blend-mode: color-dodge;
+background-blend-mode: saturation;
+background-blend-mode: color;
+background-blend-mode: luminosity;
+
+/* Background-Clip */
+background-clip: border-box;
+background-clip: padding-box;
+background-clip: content-box;
+
+/* Bckground-origin */
+background-origin: padding-box;
+background-origin: border-box;
+background-origin: content-box;
+
+/* Background-position*/
+background-position: left top;
+background-position: left center;
+background-position: left bottom;
+background-position: right top;
+background-position: right center;
+background-position: right bottom;
+background-position: center top;
+background-position: 10% 40%;
+background-position: 50px 100px;
+
+/* Background-position-x */
+background-position-x: left;
+background-position-x: right;
+background-position-x: center;
+background-position-x: 100px;
+background-position-x: 70%;
+        
+/* Background-position-y */
+background-position-y: top;
+background-position-y: bottom;
+background-position-y: center;
+background-position-y: 50px;
+background-position-y: 80%;
+
+/* Background-repeat */
+background-repeat: repeat;
+background-repeat: repeat-x;
+background-repeat: repeat-y;
+background-repeat: no-repeat;
+background-repeat: space;
+background-repeat: round;
+
+/* Background-size */
+background-size: auto;
+background-size: contain;
+background-size: cover;
+background-size: 50%;
+background-size: 30px;
+background-size: 60px;
+
+/* accent-color */
+accent-color: red;
+accent-color: #0000ff;
+accent-color: rgb(0, 255, 0);
+accent-color: black;
+accent-color: orange;
+accent-color: pink;
+accent-color: auto;
+
+/* align-content */
+align-content: stretch;
+align-content: center;
+align-content: flex-start;
+align-content: flex-end;
+align-content: space-between;
+align-content: space-around;
+align-content: space-evenly;
+
+/* align-items */
+align-items: stretch;
+align-items: center;
+align-items: flex-start;
+align-items: flex-end;
+align-items: baseline;
+
+/* align-self */
+align-self: stretch;
+align-self: center;
+align-self: flex-start;
+align-self: flex-end;
+align-self: baseline;
+
+/* block-size */
+block-size: 10px;
+block-size: 100px;
+block-size: auto;
+block-size: 20%;
+block-size: 80%;
+
+/* border */
+border: 5px solid red;
+border: 10px solid red;
+border: 4px dotted blue;
+border: 4px dashed blue;
+border: 4px inset;
+border: 4px outset;
+border: 4px ridge;
+border: 4px groove;
+border: double;
+
+/* border-block */
+border-block: 5px solid red;
+border-block: solid red;
+border-block: 5px solid;
+border-block: blue 10px dotted;
+border-block: dashed hotpink 4px;
+border-block: 4px inset;
+border-block: red 4px outset;
+border-block: 4px ridge;
+border-block: groove 4px;
+border-block: double;
+
+/* border-block-color */
+border-block-color: black;
+border-block-color: blue pink;
+border-block-color: #0000ff;
+border-block-color: rgb(0, 255, 0);
+border-block-color: rgba(0, 255, 0, 0.5);
+border-block-color: hsl(0, 100%, 50%);
+border-block-color: hsla(0, 100%, 50%, 0.1);
+border-block-color: transparent;
+
+/* border-block-end */
+border-block-end: 5px solid red;
+border-block-end: 10px solid red;
+border-block-end: 5px dotted blue;
+border-block-end: 5px dashed blue;
+border-block-end: 15px double pink;
